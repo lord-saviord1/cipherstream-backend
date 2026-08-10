@@ -1,0 +1,24 @@
+{
+  "name": "cipherstream-backend",
+  "version": "1.0.0",
+  "description": "CipherStream by Itz.sCipher - IPTV aggregator with Monnify-powered unlocks",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "seed": "node src/utils/seedChannels.js"
+  },
+  "dependencies": {
+    "axios": "^1.18.1",
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "m3u8-parser": "^7.2.0",
+    "mongoose": "^9.7.4",
+    "morgan": "^1.11.0",
+    "node-fetch": "^3.3.2"
+  }
+}
